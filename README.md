@@ -3,3 +3,6 @@ A collection of my workterm reports for my co-op workterms at The University of 
 
 ### Summer 2024
 [Summer 2024 Work Term Report @ Insignia Software Inc.](https://summer2024-workterm-report-musa-ahmed.vercel.app/)
+
+### Fall 2024
+[Fall 2024 Work Term Report @ Insignia Software Inc.](https://fall2024-work-term-reports-guelph-coop.vercel.app/)
