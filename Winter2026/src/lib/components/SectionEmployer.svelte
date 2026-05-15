@@ -13,8 +13,14 @@
       </h2>
     </div>
 
+    <img
+      src="/company.jpg"
+      alt="CAMIS"
+      class="w-full h-auto rounded-lg border border-[#1e1e1e] mb-12 opacity-90"
+    />
+
     <!-- Company header card -->
-    <div class="glow-box glow-box-hover rounded-lg border border-[#1e1e1e] bg-[#111] p-7 mb-10">
+    <div class="glow-box glow-box-hover rounded-lg border border-[#1e1e1e] bg-[#111] p-7 mb-8">
       <h3 class="font-mono text-3xl md:text-4xl font-bold text-white mb-2">CAMIS</h3>
       <p class="font-mono text-orange-500/60 text-sm mb-6">{EMPLOYER.tagline}</p>
       <div class="flex flex-wrap gap-x-6 gap-y-2 font-mono text-xs">
@@ -26,6 +32,7 @@
         {/each}
       </div>
     </div>
+
 
     <!-- Description paragraphs -->
     <div class="max-w-3xl space-y-5 text-zinc-300 leading-relaxed mb-12">
