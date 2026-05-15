@@ -56,11 +56,11 @@
       <!-- Right: hero image (~1/3 width) -->
       <!-- STUB: Drop your image into static/ and update the src below.
            Recommended: static/hero.jpg or static/hero.png -->
-      <div class="w-full md:w-72 lg:w-80 shrink-0 animate-fade-in-up" style="animation-delay: 0.25s">
+      <div class="w-full md:w-96 lg:w-[28rem] shrink-0 animate-fade-in-up" style="animation-delay: 0.25s">
         <img
-          src="/hero.svg"
+          src="/hero.png"
           alt="Musa Ahmed"
-          class="w-full max-h-72 md:max-h-80 object-cover rounded-lg border border-[#1e1e1e] opacity-80"
+          class="w-full max-h-96 md:max-h-[28rem] object-cover rounded-lg border border-[#1e1e1e] opacity-80"
         />
       </div>
 
