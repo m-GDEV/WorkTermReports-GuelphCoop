@@ -25,33 +25,29 @@ export const ABSTRACT = {
    ────────────────────────────────────────────────────────────────────────── */
 export const EMPLOYER = {
   // One-line tagline shown under the CAMIS heading.
-  tagline: `[ Full company name or tagline — e.g. "CAMIS Inc. — Park & Recreation Management Software" ]`,
+  tagline: `Camis Inc. - Connecting People to a World of Memorable Experiences`,
 
   // Chips shown beside the company name.
   quickFacts: [
-    { key: 'location', value: `[ City, Province/State ]` },
-    { key: 'industry', value: `[ Industry ]`             },
-    { key: 'size',     value: `[ # employees ]`          },
-    { key: 'product',  value: `[ Main product ]`         },
+    { key: 'location', value: `Founded Guelph in 1979` },
+    { key: 'industry', value: `Park Reservation and Facilities Management Software`             },
+    { key: 'size',     value: `~250` },
+    { key: 'product',  value: `Online Camping Reservation Site & In-Park Facility Management Application`         },
   ],
 
   // 2–4 paragraphs: what the company does, the area of CS it operates in,
   // interesting history, clients, or culture.
   descriptionParagraphs: [
-    `[ Paragraph 1 — Describe what CAMIS does and their main product or service.
-     What problem do they solve? Who are their customers? ]`,
-
-    `[ Paragraph 2 — Describe the area of computing science most relevant to CAMIS
-     (e.g. enterprise SaaS, cloud infrastructure, etc.). Include interesting facts
-     about the company: history, location, team size, or culture. ]`,
+      `As mentioned, Camis provides reservation and facility management solutions for many parks around North America. They have established their Canadian clientbase, with the vast majority of provinces and territories using our software (8/13). In addition, the company has steadily been branching out to the United States, and even internationally. Since the software is very public facing, I think it is fair to say our customers are both the parks and parks' customers. There is something special (if not slightly terrifying) about working in such a public facing industry. The main products we provide to our customers are: an online reservation website (what you'll encounter when booking with one of our clients) and a desktop application used in parks by staff.`,
+      `Camis regularly employs co-op students from January to August as a way to both aid their own teams and develop up and coming developers. As a co-op student, I commend their dedication to helping junior developers get their footing in an increasingly competitive industry. The company operates as a typicaly SaaS with clients on a recurring subscription to our product. On the surface you might not expect a camping reservation company to have complicated architecture or very much thought put into engineering a solution. You could not be more wrong. On the surface it might seem trivial to create a reservation system, but behind the curtain there is the complexity of: managing customer expectations with our own priorities, maintaining historical data (especially financial), managing simultaneous deployments of 20+ customers, etc. Suffice it to say, I was surprised at the work necessary to maintain our ever-growing system. `
   ],
 
   // Small cards at the bottom of the section.
   // Add or remove objects freely.
   interestingFacts: [
-    { label: 'Fact', value: `[ Interesting fact about CAMIS ]` },
-    { label: 'Fact', value: `[ Interesting fact about CAMIS ]` },
-    { label: 'Fact', value: `[ Interesting fact about CAMIS ]` },
+    { label: 'Fact', value: `Camis provides the camping reservation software for most government organizations in Canada (Ontario Parks, Parks Canada, etc)!` },
+    { label: 'Fact', value: `The largest git commit in our repository is 10,000,000+ lines!` },
+    { label: 'Fact', value: `Many of the employees are previous co-op students!` },
   ],
 };
 
@@ -65,31 +61,36 @@ export const EMPLOYER = {
      measureOfSuccess — how you'd know you achieved it (the Measurable part)
      reflection      — did you achieve it? what went well / what didn't?
    ────────────────────────────────────────────────────────────────────────── */
-export const GOALS_INTRO = '';
+export const GOALS_INTRO = 'It was difficult choosing my goals (as always) because there were so many interesting goals I was interested in pursuing. In the end, I managed to select the three goals I thought were most interesting and achievable over this fourth month period.';
 
 export const GOALS = [
   {
     n: '01',
-    title: `[ Goal Title ]`,
-    goal: `[ What did you want to learn or achieve? Be specific. ]`,
-    actionPlan: `[ How did you plan to achieve this goal? What steps did you take? ]`,
-    measureOfSuccess: `[ How would you know when you achieved this goal? ]`,
+    title: `Get really good at leveraging AI for productivity`,
+    goal: `I would like to learn more about how I can leverage AI to be more productive for work and for personal projects. In particular, I would like to learn more about agentic coding tools such as claude code. Additionally, I would like to learn more generally about AI itself (LLMs, etc) and how it works.
+`,
+    actionPlan: ``,
+    measureOfSuccess: `When I have acheived this goal, I will be proficient in using claude code. I will know the ins and outs of the tool and how to best use it in different scenarios. I will have acheived the knowledge portion of this goal by reading at least 3 AI related articles a week over the course of the semster.`,
     reflection: `[ Did you achieve it? What went well? What would you do differently? ]`,
   },
   {
     n: '02',
-    title: `[ Goal Title ]`,
-    goal: `[ What did you want to learn or achieve? ]`,
-    actionPlan: `[ How did you plan to achieve this goal? ]`,
-    measureOfSuccess: `[ How would you measure success? ]`,
+    title: `Learn about payment processing, gateways, etc and how camis uses them`,
+    goal: `I would like to learn more about how payment works in general and what the domain looks like exactly. This includes payement processors, gateways, etc and how the whole system works togehter from a customer initiating a transaction to payment being received.
+`,
+    actionPlan: ``,
+    measureOfSuccess: `When I have achieved this goal, I will be able to explain how the system functions  with relative accuracy and which components connect to which. In addition, I will be able to explain Camis’ role in the payment domain and how it interacts with it.
+`,
     reflection: `[ Reflect on this goal. ]`,
   },
   {
     n: '03',
-    title: `[ Goal Title ]`,
-    goal: `[ What did you want to learn or achieve? ]`,
+    title: `Improve my ability to work & communicate effectively on software development and other crossfunctional teams`,
+    goal: `I would like to improve my ability to effectively on a software development team. Additionally, I want to learn how to work with other technical and non-technical teams such that I am able to effectively communicate with them and come to resolutions easily and without confusion.
+`,
     actionPlan: `[ How did you plan to achieve this goal? ]`,
-    measureOfSuccess: `[ How would you measure success? ]`,
+    measureOfSuccess: `When I have acheived this goal, I will feel more confident working on any future software team. I will know exactly how to communicate effectively to people/teams of various technical ability. I will be able to measure this by determining whether it is easier for me to work effectively with the teams mentioned compared to when I started working this semester. Additionally, I will know how best to communicate such that I am able to achieve the mutual goals I have with those who I am working with, in the most effecient way possible.
+`,
     reflection: `[ Reflect on this goal. ]`,
   },
 ];
@@ -100,8 +101,8 @@ export const GOALS = [
    skills used/learned, and a note on coursework vs. on-the-job learning.
    ────────────────────────────────────────────────────────────────────────── */
 export const JOB = {
-  title: `[ Your Job Title ]`,
-  team:  `[ Team / Department ]`,
+  title: `Software Developer Co-op`,
+  team:  `Payment Squad`,
 
   // 2–4 paragraphs: overview of your role, the project(s) you worked on,
   // the most interesting/unique aspects, and the most challenging parts.
@@ -111,14 +112,21 @@ export const JOB = {
 
     `[ Paragraph 2 — Highlight the most interesting or unique aspects of your
      job. What was the most challenging part? What did you enjoy most? ]`,
+
+      `mention:
+      - recon work 
+      - claude code / ai 
+      - v-model
+      `
   ],
 
   // Skill groups shown in the "skills used & learned" table.
   // Edit category names and skill strings freely; add or remove rows.
   skillGroups: [
-    { category: 'Languages & Frameworks', skills: [`[ Skill ]`, `[ Skill ]`, `[ Skill ]`] },
-    { category: 'Tools & Platforms',      skills: [`[ Tool ]`,  `[ Tool ]`,  `[ Tool ]` ] },
-    { category: 'Concepts & Practices',   skills: [`[ Concept ]`, `[ Concept ]`         ] },
+    { category: 'Languages & Frameworks', skills: ['.NET 9.0', 'ASP.NET', 'MSSQL', 'WPF', 'Angular'] },
+    { category: 'Tools',      skills: ['Claude Code', 'Visual Studio', 'Sql Server Management Studio (SSMS)', 'Visual Studio Code', 'WSL', 'Claude CoWork', 'Docker', 'Redis', 'Git' ] },
+    { category: 'Platforms',      skills: ['Jenkins', 'Octopus Deploy', 'Github', 'Jira', 'Confluence', 'Git' ] },
+    { category: 'Concepts & Practices',   skills: ['SOLID Principles', 'Domain Driven Design', 'Unit Testing', 'Integration Testing', 'e2e Testing', 'Monolithic Codebase'] },
   ],
 
   // 1–2 paragraphs on which skills came from your UofG courses vs. learned
@@ -156,8 +164,9 @@ export const ACKNOWLEDGMENTS = {
 
   // Optional thank-you cards. Set to [] to hide the grid entirely.
   people: [
-    { name: `[ Name ]`, role: `[ Role / Relation ]`, note: `[ Brief note of thanks ]` },
-    { name: `[ Name ]`, role: `[ Role / Relation ]`, note: `[ Brief note of thanks ]` },
-    { name: `[ Name ]`, role: `[ Role / Relation ]`, note: `[ Brief note of thanks ]` },
+    { name: `Taylor Poulin`, role: `Direct Manager`, note: `Thank you so much for creating a welcoming environment and making me feel like I belong on the team.` },
+    { name: `Andrew Steinbach`, role: `Team Lead`, note: `Thank you for taking the time and answering every question I had, trivial or not, in depth and making sure I understood.` },
+    { name: `The rest of the Payment Squad`, role: `Payment Squad`, note: `Thank you everyone for being so welcoming and helping me get started at the company. If it wasn't for you guys I would be much worse off.` },
+    { name: `My fellow Co-ops`, role: `Colleagues`, note: `Thank you for making every day interesting with our daily lunch discussions. I also really enjoyed our talks during the day.` },
   ],
 };
