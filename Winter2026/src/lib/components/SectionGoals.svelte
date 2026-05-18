@@ -1,5 +1,7 @@
 <script>
   import { GOALS } from '$lib/workterm_answers.js';
+
+  const roman = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
 </script>
 
 <section id="goals" class="py-24 px-6">
@@ -31,8 +33,17 @@
               <ul class="space-y-2">
                 {#each item.goals as goal, j}
                   <li class="flex items-start gap-3">
-                    <span class="font-mono text-orange-500/50 text-xs shrink-0 mt-0.5">{String(j + 1).padStart(2, '0')}</span>
+                    <span class="font-mono text-orange-500/50 text-xs shrink-0 mt-0.5">{roman[j]}</span>
                     <span class="text-zinc-300 text-sm leading-relaxed">{goal}</span>
+                  </li>
+                {/each}
+              </ul>
+            {:else if item.reflections}
+              <ul class="space-y-4">
+                {#each item.reflections as ref, j}
+                  <li class="flex items-start gap-3">
+                    <span class="font-mono text-orange-500/50 text-xs shrink-0 mt-0.5">{roman[j]}</span>
+                    <p class="text-zinc-300 text-sm leading-relaxed">{ref}</p>
                   </li>
                 {/each}
               </ul>
