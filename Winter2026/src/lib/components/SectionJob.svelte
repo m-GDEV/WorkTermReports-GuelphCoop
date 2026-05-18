@@ -13,6 +13,12 @@
       </h2>
     </div>
 
+    <img
+      src="/job.jpg"
+      alt="Job Description"
+      class="w-full h-auto rounded-lg border border-[#1e1e1e] mb-12 opacity-90"
+    />
+
     <!-- Role meta -->
     <div class="glow-box rounded-lg border border-[#1e1e1e] bg-[#111] p-6 mb-12 font-mono text-sm">
       <div class="flex flex-wrap gap-8">
@@ -57,14 +63,6 @@
           </div>
         {/each}
       </div>
-    </div>
-
-    <!-- Classroom vs on-the-job -->
-    <div class="max-w-3xl">
-      <h3 class="font-mono text-xs text-zinc-600 uppercase tracking-widest mb-4">
-        <span class="text-orange-500/50">//</span> classroom vs. on-the-job
-      </h3>
-      <p class="text-zinc-300 leading-relaxed">{JOB.classroomVsJob}</p>
     </div>
 
   </div>

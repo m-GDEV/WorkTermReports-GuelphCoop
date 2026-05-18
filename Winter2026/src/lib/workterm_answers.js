@@ -103,18 +103,9 @@ export const JOB = {
     // 2–4 paragraphs: overview of your role, the project(s) you worked on,
     // the most interesting/unique aspects, and the most challenging parts.
     overviewParagraphs: [
-        `[ Paragraph 1 — Give an overview of your role and main responsibilities
-     at CAMIS. What project(s) did you contribute to? ]`,
-        `My primary role was to be a full-stack developer and contribute to the work done by the Payment Squad. This entailed participating in their bi-weekly sprints and taking on tickets therein. Over the course of this work term, I learned a lot about how payment and payment adjacent parts of the company's software function. From learning more about WPF, to invoice generation, to revenue data and how to optimize the gigantic amount of it, and to how our software interacts with pin pads, every step of the way was interesting and I've truly learned a lot. `,
+        `My primary role was to be a full-stack developer and contribute to the work done by the Payment Squad. This entailed participating in their bi-weekly sprints and taking on tickets therein. Over the course of this work term, I learned a lot about how payment and payment adjacent parts of the company's software function. From learning more about WPF, to invoice generation, to revenue data and how to optimize the gigantic amount of it, and to how our software interacts with pin pads, every step of the way was interesting and I've truly learned a lot. At the beginning of a sprint we'd typically choose N tickets we thought were completable during the sprint (based on team member availability, ticket effort, holidays, etc). After that, team members would continuously pick up new tickets. About half-way through the work term, our new CTO instituted a new SDLC called the V-Model which was a major departure from the pseudo-agile process we had been following hitherto. This model of development was initially used on Aerospace engineering. The argument made for this new system was that since AI can code decently well, we can now spend time otherwise spent coding on creating and maintaining specific product requirements and documentation. The efficacy of the system is yet to be determined. Regardless, this new system caused major downstream changes across our SDLC as we were not integrating Claude into every step. Incidentally, this was a great opportunity to accomplish Goal #1.`,
 
-        `[ Paragraph 2 — Highlight the most interesting or unique aspects of your
-     job. What was the most challenging part? What did you enjoy most? ]`,
-
-        `mention:
-      - recon work 
-      - claude code / ai 
-      - v-model
-      `,
+        `I contributed to a number of projects during the workterm. Majority of my time was spent developing our WPF Windows desktop application with its corresponding back-end API. I also briefly worked on our web application (which was really cool because it is very public facing!). The most interesting and challenging part of my job was a combination of learning parts of the tech stack I had not worked with (WPF, T-SQL, Angular), and learning how to manage our large monolithic codebase. Getting to grips with the codebase and having a good intuition of where things are was a very satisfying feeling. One of the more unique aspects of my work over the last work term was covering for one of the company's Financial Analysts when they went on vacation. Having little experience in this area, I naturally only covered a small subset of their daily responsibilities. For about a week beforehand, I was trained on how to reconcile payments and revenue for some clients. Then, for ~3-4 weeks, I reconciled transactions for various clients. Having previously worked directly with the payment team, it was incredibly interesting to see the other side, being an actual user of the software. It helped me better understand what the SDLC looks like, for both those developing the software, and those using the software. `,
     ],
 
     // Skill groups shown in the "skills used & learned" table.
@@ -161,12 +152,6 @@ export const JOB = {
             ],
         },
     ],
-
-    // 1–2 paragraphs on which skills came from your UofG courses vs. learned
-    // on the job. Did your coursework prepare you well?
-    classroomVsJob: `[ Describe which skills came from your university courses vs. skills
-    you picked up on the job at CAMIS. Did your coursework prepare you well for
-    this role? What did you have to learn independently? ]`,
 };
 
 /* ── 05 · CONCLUSIONS ───────────────────────────────────────────────────────
@@ -175,12 +160,7 @@ export const JOB = {
    ────────────────────────────────────────────────────────────────────────── */
 export const CONCLUSIONS = {
     paragraphs: [
-        `[ Paragraph 1 — Review the key points of your work term. What is the most
-     important thing you learned? If someone only read your abstract and this
-     section, what would you want them to take away? ]`,
-
-        `[ Paragraph 2 — How has this work term shaped your perspective, skills, or
-     career direction? What are you most proud of? What would you do differently? ]`,
+        `To conclude, this was a great work term. Potentially the best so far. Between being more experienced, this being my first in-office position, and being given more responsibility, this work term was very fulfilling. I enjoyed settings and accomplishing my goals. I'd say the most important thing I learned, and I continue learning, is that AI is simply a tool. As much as we might like to delude ourselves that LLMs are somehow intelligent, they are not. In fact, I created a document for myself to help me identify valid and invalid cases for when to use AI. As a student and employee there can be a lot of pressure to move so quickly (using AI) that you learn nothing in the process. I really want to avoid that. I would say I'm most proud of my ability to relatively quickly adapt to a somewhat new tech stack. While the foundation was similar to my previous co-op, there was substantial effort required initially to learn how Camis builds their software. I feel I was able to learn this quick enough that it didn't impact my productivity too much. With regard to what I'd do differently, I think I would have liked to take more initiative when picking up new tasks. Oftentimes there would be a task I felt was out of my scope, maybe due to perceived lack of skills or knowledge, I opted to take an easier task instead. Had I chosen more difficult tasks earlier, it might have accelerated my learning and gotten me on my feet faster. Overall this was a great work term and I look forward to the next one.`,
     ],
 };
 
@@ -190,8 +170,7 @@ export const CONCLUSIONS = {
    ────────────────────────────────────────────────────────────────────────── */
 export const ACKNOWLEDGMENTS = {
     // Main prose acknowledgment paragraph.
-    paragraph: `[ Thank your manager, teammates, co-op coordinator, professors,
-    or anyone else who supported your Winter 2026 work term at CAMIS. ]`,
+    paragraph: `I'd like to thank Camis for hiring me and offering me the change to develop my skills as a Junior developer. Their dedication to hiring UofG students and developing local talent is admirable. I would also like to thank all of the people I work with on a daily basis. Everyone at the company has been very friendly and welcoming, always making sure to answer any questions of mine to the best of their ability. Thank you!`,
 
     // Optional thank-you cards. Set to [] to hide the grid entirely.
     people: [
@@ -206,14 +185,14 @@ export const ACKNOWLEDGMENTS = {
             note: `Thank you for taking the time and answering every question I had, trivial or not, in depth and making sure I understood.`,
         },
         {
-            name: `The rest of the Payment Squad`,
+            name: `The rest of my team`,
             role: `Payment Squad`,
             note: `Thank you everyone for being so welcoming and helping me get started at the company. If it wasn't for you guys I would be much worse off.`,
         },
         {
             name: `My fellow Co-ops`,
             role: `Colleagues`,
-            note: `Thank you for making every day interesting with our daily lunch discussions. I also really enjoyed our talks during the day.`,
+            note: `Thank you for making every day interesting with our daily lunch discussions. I also really enjoyed our talks during the day; I look forward to more in our upcoming work term together!`,
         },
     ],
 };

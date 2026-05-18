@@ -15,6 +15,12 @@
       </h2>
     </div>
 
+    <img
+      src="/goals.webp"
+      alt="Goals"
+      class="w-full h-auto rounded-lg border border-[#1e1e1e] mb-12 opacity-90"
+    />
+
     <div class="space-y-10">
       {#each GOALS as item, i}
         <div class="rounded-lg border border-[#1e1e1e] bg-[#111] overflow-hidden glow-box-hover">

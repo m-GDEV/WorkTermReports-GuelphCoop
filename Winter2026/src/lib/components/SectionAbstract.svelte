@@ -13,6 +13,12 @@
       </h2>
     </div>
 
+    <img
+      src="/abstract.png"
+      alt="Abstract"
+      class="w-full h-auto rounded-lg border border-[#1e1e1e] mb-12 opacity-90"
+    />
+
     <div class="max-w-3xl space-y-5 text-zinc-300 leading-relaxed text-base">
       {#each ABSTRACT.paragraphs as para}
         <p>{para}</p>
